@@ -25,7 +25,7 @@ def last(bot, trigger):
     value = j[0]['value']/1E12
     effort = shares*100/diff
     [seconds_ago, minutes_ago, hours_ago, days_ago] = seconds_to_date(seconds_ago)
-    bot.say("The last block was mined {0} days, {1} hours e {2} minutes. The difficulty was {4}, {5} shares were needed, and had a reward of {6} with {7}% effort ".format(days_ago, hours_ago, minutes_ago, seconds_ago, diff, shares, value, effort))
+    bot.say("The last block was mined {0} days, {1} hours and {2} minutes. The difficulty was {4}, {5} shares were needed, and had a reward of {6} with {7}% effort ".format(days_ago, hours_ago, minutes_ago, seconds_ago, diff, shares, value, effort))
   except:
     bot.say("The Pool API is unreachable!")
 
@@ -92,7 +92,7 @@ def stats(bot, trigger):
             hashrate=j['hash']
             due=j['amtDue'] / 1E12
             paid=j['amtPaid'] /1E12
-            bot.say("Your Stats are: Hashrate {0} H/s you have {1}XMR due and you were already paied {2}XMR".format(hashrate, due, paid))
+            bot.say("Your Stats are: Hashrate {0} H/s you have {1}XMR due and you were already paid {2}XMR".format(hashrate, due, paid))
         except:
             bot.say("Invalid wallet Address!")
 
