@@ -1,3 +1,12 @@
+##
+## Trigger commands to interact with pools API
+## .last - info on last mined block
+## .status - info on pool statistics
+## .effort - if only effort gives current round effort if a X string is given it will give the average effort on last X number of blocks 
+## .stats - Gives miner info for given wallet address mining on the pool
+##
+## Thanks to bitmoeda and notmike for the help
+##
 import sopel.module
 import requests
 import re
