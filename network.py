@@ -65,7 +65,7 @@ def blocksize(bot, trigger):
 @sopel.module.commands('mine')
 def mine(bot, trigger):
   try: 
-    r=requests.get('https://pool.xmr.pt/api/network/stats')
+    r=requests.get(networkurl)
     j=r.json()
     diff=float(j['difficulty'])
     value=float(j['value'])/1e12
@@ -78,7 +78,7 @@ def mine(bot, trigger):
 @sopel.module.commands('solo')
 def solo(bot, trigger):
   try: 
-    r=requests.get('https://supportxmr.com/api/network/stats')
+    r=requests.get(networkurl)
     j=r.json()
     diff=float(j['difficulty'])
     hashrate=float(trigger.group(2))
