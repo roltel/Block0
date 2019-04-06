@@ -9,7 +9,7 @@ Linux
 
 ## Configuration
 
-Edit the files to use the pool you wich example uses https://pool.xmr.pt
+Edit the files to use the pool you which, this example uses https://pool.xmr.pt
 
 Copy files to ~/.sopel/modules/
 
