@@ -1,0 +1,23 @@
+block0 @ freenode - pool.xmr.pt info 
+
+.ajuda 				- Lista esta pagina 
+.status             - Informação do estado da pool, HashRate, Miners, Block0s minados e previsão do tempo entre block0s 
+.stats CARTEIRA 	- Informação sobre a tua CARTEIRA na pool, HashRate, Saldo pendente, Total Pago 
+.last 				- Informação sobre o ultimo bloco minado 
+.effort				- Informação relativa ao effort do round actual
+.pagamento 			- Informação sobre o processamento dos pagamentos na pool 
+.pendente 			- Informação sobre o saldo pendente 
+.hashrate 			- Informação sobre como verificar a HashRate no site 
+.password			- Informação sobre formato da password a incluir no software para login no site.
+.config				- Usa o config generator na pagina para obteres um sample config para os softwares de mining mais usados 
+                      em https://pool.xmr.pt/#/help/config_generator 
+.wallet				- Informação de onde obter a wallet oficial
+.node				- Informação relativa aos remote nodes disponiveis
+.calculadora		- Calculadora que procura incluir o incremento da diff
+
+Info softwares mining 
+
+.xmrstak			- https://github.com/fireice-uk/xmr-stak
+.xmrstakcpu 		- https://github.com/fireice-uk/xmr-stak-cpu/releases/ 
+.xmrstakamd 		- https://github.com/fireice-uk/xmr-stak-amd/releases/ 
+.xmrstaknvidia 		- https://github.com/fireice-uk/xmr-stak-nvidia/releases/
